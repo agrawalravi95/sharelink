@@ -1,0 +1,19 @@
+{
+  "name": "sharelinkserver",
+  "version": "1.0.0",
+  "description": "Server side to handle queries and maintain my resources database",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
+  },
+  "author": "Ravi Agrawal",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}

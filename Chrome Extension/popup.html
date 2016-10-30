@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Bookmark &amp; Share</title>
+    <script src="popup.js"></script>
+    <style>
+    	html {
+    		font-size: 16px;
+    	}
+    	body {
+    		min-width: 300px;
+    		min-height: 300px;
+  			font-family: sans-serif;
+        line-height: 1.7;
+    	}
+			h1 {
+				font-size: 1.5rem;
+			}
+      section#old-resource {
+        display: none;
+      }
+    </style>
+  </head>
+  <body>
+    <section id="new-resource">
+      <h1>Select Tags</h1>
+      <form method="POST" id="tagsForm" class="tags-form">
+        <input type="hidden" name="shareURL" id="shareURL">
+      </form>
+    </section>
+    <section id="old-resource">
+      <strong>
+        Looks like you have already added this to your resources!
+        <br><br>
+        DUDE! You should check your resources once in a while :P
+      </strong>
+    </section>
+  </body>
+</html>

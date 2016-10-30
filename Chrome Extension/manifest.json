@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+
+  "name": "Share Link Plugin",
+  "description": "This extension will allow you to share links to various Slack Groups, Facebook Groups and use POST Queries for anywhere ekse",
+  "version": "1.0",
+
+  "browser_action": {
+   "default_icon": "icon.png",
+   "default_popup": "popup.html"
+  },
+  "permissions": [
+   "activeTab",
+   "<all_urls>"
+   ]
+}
